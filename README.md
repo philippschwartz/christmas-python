@@ -43,7 +43,7 @@ The installation creates an immersive experience through:
     ```
 
     For Windows:
-    ```cmd
+    ```bash
     python -m venv venv
     venv\Scripts\activate.bat
     ```
@@ -57,12 +57,15 @@ The installation creates an immersive experience through:
 If you're using PowerShell and encounter script execution restrictions, open PowerShell as Administrator and run:
 ```powershell
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+```
 
 ## Usage
 
 Launch the animation:
-    python christmas_tree.py
-
+```bash
+python christmas_tree.py
+```
+    
 Exit gracefully with Ctrl+C
 
 ## Design Philosophy
