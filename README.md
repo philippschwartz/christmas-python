@@ -29,15 +29,34 @@ The installation creates an immersive experience through:
 ## Installation
 
 1. Clone the repository:
+    ```bash
     git clone https://github.com/philippschwartz/christmas-python.git
     cd christmas-python
+    ```
 
 2. Create and activate virtual environment:
+
+    For Unix/Mac:
+    ```bash
     python3 -m venv venv
-    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    source venv/bin/activate
+    ```
+
+    For Windows:
+    ```cmd
+    python -m venv venv
+    venv\Scripts\activate.bat
+    ```
 
 3. Install dependencies:
+    ```bash
     pip install -r requirements.txt
+    ```
+
+### Windows-Specific Setup
+If you're using PowerShell and encounter script execution restrictions, open PowerShell as Administrator and run:
+```powershell
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
 ## Usage
 
