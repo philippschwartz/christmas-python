@@ -8,10 +8,11 @@ import shutil
 init(autoreset=True)
 
 def clear_screen():
-    """Clear screen and ensure full black background"""
-    os.system('clear')
-    print(Back.BLACK + '\033[2J', end='')
-    print('\033[H', end='')
+    """Clear screen using OS-specific command"""
+    if os.name == 'nt':  # for Windows
+        os.system('cls')
+    else:  # for Unix/Linux/MacOS
+        os.system('clear')
 
 def create_christmas_art():
     """Create minimalist Christmas tree art with floating words"""
