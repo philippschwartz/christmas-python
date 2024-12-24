@@ -5,6 +5,10 @@ Initial Thoughts:
 - Aimed to transform the boring terminal into something different and holiday-themed
 - Wanted to explore how simple characters could create engaging visual art
 
+
+![Christmas Tree Animation Demo](demo.gif) 
+
+
 Process:
 - What worked:
   * Using Unicode characters instead of basic ASCII for better visuals
